@@ -6,9 +6,9 @@ import {SiTailwindcss, SiJavascript, SiCss3} from "react-icons/si"
 function SkillsPage() {
   return(
     <div className="min-h-screen bg-cyan-800">
-      <div className="pt-24 sm:px-20 px-5">
+      <div className="pt-24 sm:px-20 px-5 pb-10">
       <h1 className="text-4xl text-white font-bold sm:text-6xl underline text-center sm:text-left">Skills</h1>
-        <div className="text-teal-300 sm:flex-row sm:justify-between flex flex-col items-center sm:py-40 py-10 sm:space-y-0 space-y-14">
+        <div className="text-teal-300 sm:flex-row sm:justify-between flex flex-col items-center sm:py-40 pt-10 sm:space-y-0 space-y-14">
           <div className="flex flex-col">
          <FaReact className="h-24 w-24"/>
           <a href="https://reactjs.org/" target="_blank" className="text-gray-400 text-xl hover:border-b-2 border-gray-400 self-center">React</a>

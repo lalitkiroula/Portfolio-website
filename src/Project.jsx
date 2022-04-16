@@ -8,7 +8,7 @@ function Project(props) {
       <img src={props.image} className="h-96 sm:w-96 block sm:mx-0 mx-auto rounded-lg"/>
       <div className="sm:w-1/2 sm:grow sm:self-center">
       <div className=" text-gray-400">{props.children}</div>
-        <div className=" text-center pb-10 mt-10 sm:text-left">
+        <div className=" text-center mt-10 sm:text-left">
         <a href={props.link} className="px-5 py-2 border-2 border-teal-300 bg-teal-300 rounded-md hover:bg-transparent hover:text-teal-300" target="_blank">View Project ></a>
           </div>
       </div>

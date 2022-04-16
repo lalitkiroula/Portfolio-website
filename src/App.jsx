@@ -1,5 +1,5 @@
 import React from 'react';
-import MainLayout from './MainLayout'
+import MainLayout from './MainLayout';
 import HomePage from "./HomePage"
 import AboutMePage from "./AboutMePage"
 import SkillsPage from "./SkillsPage"

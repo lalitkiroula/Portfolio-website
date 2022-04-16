@@ -8,7 +8,7 @@ import CodeyogiAppClone from "./CodeyogiAppClone.png"
 function MyProjectPage() {
   return(
     <div className="min-h-screen bg-cyan-800">
-       <div className="pt-24 sm:px-20 px-5">
+       <div className="pt-24 sm:px-20 px-5 pb-10">
       <h1 className="text-4xl text-white font-bold sm:text-6xl underline text-center sm:text-left">My Projects</h1>
          <div className="border-b-4 border-white pb-10">
          <Project projectName= "TicTacToe" projectNumber='1.' image={TicTacToe} link="https://assignment-31-create-tic-tac-toe-game-lalitkiroula.codeyogiteam.repl.co/"> This is a simple game in which two players take turns in drawing either an ' O' or an ' X' in one square of a grid consisting of nine squares. The winner is the first player to get three of the same symbols in a row.</Project>
